@@ -1,6 +1,7 @@
 import Image from "next/image";
 import LoginTop from "@/00_common/top/LoginTop";
 import LoginDupAlert from "@/00_common/modal/1/LoginDupAlert";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Row, Col} from 'react-bootstrap';
 
 
