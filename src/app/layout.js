@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <link href="/star/css/liderCustom.css" rel="stylesheet" type="text/css"/>
+      <link href="https://anakyn01.github.io/star/css/liderCustom.css" rel="stylesheet" type="text/css"/>
       </head>
       <body className={``}>
         {children}
