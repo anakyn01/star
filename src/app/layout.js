@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        
+        <link rel="stylesheet" href="/star/css/liderCustom.css"/>
       </head>
       <body className={inter.className}>
         {children}
