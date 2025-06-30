@@ -1,0 +1,22 @@
+{
+  "homepage": "https://anakyn01.github.io/star",
+  "name": "star",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "next": "15.3.4",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
