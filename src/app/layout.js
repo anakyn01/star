@@ -1,6 +1,5 @@
 import Script from 'next/script'
 
-import 'bootstrap/dist/css/bootstrap.css';
 
 export const metadata = {
   title: "star",
