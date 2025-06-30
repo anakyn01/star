@@ -52,9 +52,7 @@ export default function Home() {
      </Container>
      <LoginDupAlert/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
-
 <script src="/star/js/custom.js"></script>
-<link href="/star/css/liderCustom.css" rel="stylesheet" type="text/css"/>
     </>
   );
 }
