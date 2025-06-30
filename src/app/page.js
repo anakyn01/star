@@ -9,9 +9,6 @@ export default function Home() {
   return (
     <>
      <LoginTop/>
-     <Container>s
-      <Row>
-        <Col>
          <div className="p-3">
   <div className="w-100 h-100 d-flex justify-content-center align-items-center">
       <div className="w-560 mt-160">
@@ -48,9 +45,6 @@ export default function Home() {
     </div>
       </div>
       </div>
-        </Col>
-      </Row>
-     </Container>
      <LoginDupAlert/>
 
     </>
