@@ -1,4 +1,4 @@
-
+import Script from 'next/script'
 
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -11,12 +11,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <link href="https://anakyn01.github.io/star/css/liderCustom.css" rel="stylesheet" type="text/css"/>
+      <link href="/css/liderCustom.css" rel="stylesheet" type="text/css"/>
       </head>
-      <body className={``}>
+      <body>
         {children}
                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
-<script src="/star/js/custom.js"></script>
+<script src="/js/custom.js"></script>
       </body>
     </html>
   );
