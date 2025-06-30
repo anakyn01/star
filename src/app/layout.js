@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
       <head>
   <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"></link>
-      <link href="/css/liderCustom.css" rel="stylesheet" type="text/css"></link>
+      <link href="/star/css/liderCustom.css" rel="stylesheet" type="text/css"></link>
       </head>
       <body>
         {children}
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
-<script src="/js/custom.js"></script>
+<script src="/star/js/custom.js"></script>
       </body>
     </html>
   );
