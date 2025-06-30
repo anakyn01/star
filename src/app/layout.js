@@ -11,12 +11,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <link href="http://localhost:3000/star/css/liderCustom.css" rel="stylesheet" type="text/css"/>
+      <link href="/star/css/liderCustom.css" rel="stylesheet" type="text/css"/>
       </head>
       <body className={``}>
         {children}
                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
-<script src="http://localhost:3000/star/js/custom.js"></script>
+<script src="/star/js/custom.js"></script>
       </body>
     </html>
   );
