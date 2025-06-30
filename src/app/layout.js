@@ -14,7 +14,6 @@ export default function RootLayout({ children }) {
       <link href="/star/css/liderCustom.css" rel="stylesheet" type="text/css"/>
       </head>
       <body>
-        <bootstrap/>
         {children}
 
       </body>
